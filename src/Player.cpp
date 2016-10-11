@@ -5,13 +5,8 @@ Player::Player(SDL_Surface* _supraf)
     //ctor
     Suprafata=_supraf;
     InitRect();
-    //SDL_FillRect(_param.Surface,&Rectanglu,SDL_MapRGB(_param.Surface->format,255,0,0));
+    SDL_FillRect(Suprafata,&Rectanglu,SDL_MapRGB(Suprafata->format,255,0,0));
     printf("Player constructed\n");
-}
-Player::Player()
-{
-    //second ctor
-    InitRect();
 }
 Player::~Player()
 {

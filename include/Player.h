@@ -7,7 +7,6 @@ class Player
 {
     public:
         Player(SDL_Surface* _param);
-        Player();
         void MOV(int dir);
         virtual ~Player();
         void InitRect();
