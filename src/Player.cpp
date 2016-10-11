@@ -3,6 +3,7 @@
 Player::Player(SDL_Surface* _supraf)
 {
     //ctor
+    speed=10;
     Suprafata=_supraf;
     InitRect();
     SDL_FillRect(Suprafata,&Rectanglu,SDL_MapRGB(Suprafata->format,255,0,0));
@@ -26,16 +27,16 @@ void Player::MOV(int dir)
     switch (dir)
     {
     case 1:
-        Rectanglu.y-=10;
+        Rectanglu.y-=speed;
         break;
     case 2:
-        Rectanglu.y+=10;
+        Rectanglu.y+=speed;
         break;
     case 3:
-        Rectanglu.x+=10;
+        Rectanglu.x+=speed;
         break;
     case 4:
-        Rectanglu.x-=10;
+        Rectanglu.x-=speed;
     }
     SDL_FillRect(Suprafata,&Rectanglu,SDL_MapRGB(Suprafata->format,255,0,0));
 }

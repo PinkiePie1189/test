@@ -13,5 +13,6 @@ class Player
         int x,y;
         SDL_Rect Rectanglu;
         SDL_Surface* Suprafata;
+        int speed;
 };
 #endif // PLAYER_H
