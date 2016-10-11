@@ -1,7 +1,8 @@
 # depslib dependency file v1.0
-1476033320 source:c:\users\mircea\desktop\info stuff\sdl\main.cpp
+1476183059 source:c:\users\mircea\desktop\info stuff\sdl\main.cpp
 	<SDL2\SDL.h>
 	"display.h"
+	"Player.h"
 
 1451768294 c:\users\mircea\desktop\info stuff\sdl\include\sdl2\sdl.h
 	"SDL_main.h"
@@ -322,10 +323,19 @@
 	"begin_code.h"
 	"close_code.h"
 
-1476033289 c:\users\mircea\desktop\info stuff\sdl\include\display.h
+1476180820 c:\users\mircea\desktop\info stuff\sdl\include\display.h
 	<SDL2\SDL.h>
 	<stdio.h>
+	<string>
 
-1476033289 source:c:\users\mircea\desktop\info stuff\sdl\src\display.cpp
+1476180820 source:c:\users\mircea\desktop\info stuff\sdl\src\display.cpp
 	"display.h"
+
+1476178719 source:c:\users\mircea\desktop\info stuff\sdl\src\player.cpp
+	"Player.h"
+
+1476183059 c:\users\mircea\desktop\info stuff\sdl\include\player.h
+	<SDL2\SDL.h>
+	<stdio.h>
+	<string>
 
