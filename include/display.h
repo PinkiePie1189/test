@@ -11,6 +11,7 @@ class display
         void PutPicture(SDL_Surface* foto,bool _stretch);
         bool IsQuit();
         void SetQuit(bool _quit);
+        int width,height;
         SDL_Event handler;
         SDL_Window* window=NULL;
         SDL_Surface* poza=NULL;
@@ -20,7 +21,6 @@ class display
     private:
         SDL_Rect WholeScreen;
         bool quit=false;
-        int width,height;
 };
 
 #endif // DISPLAY_H

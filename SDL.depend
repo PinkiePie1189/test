@@ -339,11 +339,14 @@
 	<stdio.h>
 	<string>
 
-1476217528 source:c:\users\mircea\desktop\info stuff\git\test\main.cpp
+1476290643 source:c:\users\mircea\desktop\info stuff\git\test\main.cpp
 	<SDL2\SDL.h>
 	"display.h"
 	"Player.h"
-	"Timer.h"
+	"Vector2.h"
+	<SDL2\SDL_ttf.h>
+	<stdlib.h>
+	<conio.h>
 
 1476215101 c:\users\mircea\desktop\info stuff\git\test\include\sdl2\sdl.h
 	"SDL_main.h"
@@ -664,20 +667,21 @@
 	"begin_code.h"
 	"close_code.h"
 
-1476215438 c:\users\mircea\desktop\info stuff\git\test\include\display.h
+1476284448 c:\users\mircea\desktop\info stuff\git\test\include\display.h
 	<SDL2\SDL.h>
 	<stdio.h>
 	<string>
 
-1476217556 c:\users\mircea\desktop\info stuff\git\test\include\player.h
+1476289654 c:\users\mircea\desktop\info stuff\git\test\include\player.h
 	<SDL2\SDL.h>
 	<stdio.h>
 	<string>
+	"Vector2.h"
 
 1476215103 source:c:\users\mircea\desktop\info stuff\git\test\src\display.cpp
 	"display.h"
 
-1476218413 source:c:\users\mircea\desktop\info stuff\git\test\src\player.cpp
+1476289821 source:c:\users\mircea\desktop\info stuff\git\test\src\player.cpp
 	"Player.h"
 
 1476216985 source:c:\users\mircea\desktop\info stuff\git\test\src\timer.cpp
@@ -685,4 +689,14 @@
 
 1476216985 c:\users\mircea\desktop\info stuff\git\test\include\timer.h
 	<SDL2\SDL.h>
+
+1476286077 c:\users\mircea\desktop\info stuff\git\test\include\vector2.h
+
+1454366534 c:\users\mircea\desktop\info stuff\git\test\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476286075 source:c:\users\mircea\desktop\info stuff\git\test\src\vector2.cpp
+	"Vector2.h"
 

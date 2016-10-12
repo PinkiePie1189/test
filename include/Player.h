@@ -3,16 +3,18 @@
 #include<SDL2\SDL.h>
 #include<stdio.h>
 #include<string>
+#include"Vector2.h"
 class Player
 {
     public:
-        Player(SDL_Surface* _param);
+        Player(SDL_Surface* _param,Vector2<int> _poz);
         void MOV(int dir);
         virtual ~Player();
         void InitRect();
         int x,y;
         SDL_Rect Rectanglu;
         SDL_Surface* Suprafata;
-        int speed;
+        float speed;
+        Vector2<int> position;
 };
 #endif // PLAYER_H
