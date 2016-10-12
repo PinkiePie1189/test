@@ -339,14 +339,17 @@
 	<stdio.h>
 	<string>
 
-1476290643 source:c:\users\mircea\desktop\info stuff\git\test\main.cpp
+1476299302 source:c:\users\mircea\desktop\info stuff\git\test\main.cpp
 	<SDL2\SDL.h>
 	"display.h"
 	"Player.h"
 	"Vector2.h"
 	<SDL2\SDL_ttf.h>
+	<SDL2\SDL_image.h>
 	<stdlib.h>
 	<conio.h>
+	"Marcos.h"
+	"Ball.h"
 
 1476215101 c:\users\mircea\desktop\info stuff\git\test\include\sdl2\sdl.h
 	"SDL_main.h"
@@ -667,22 +670,25 @@
 	"begin_code.h"
 	"close_code.h"
 
-1476284448 c:\users\mircea\desktop\info stuff\git\test\include\display.h
+1476294976 c:\users\mircea\desktop\info stuff\git\test\include\display.h
 	<SDL2\SDL.h>
+	<SDL2\SDL_image.h>
 	<stdio.h>
 	<string>
+	<Vector2.h>
 
-1476289654 c:\users\mircea\desktop\info stuff\git\test\include\player.h
+1476298735 c:\users\mircea\desktop\info stuff\git\test\include\player.h
 	<SDL2\SDL.h>
 	<stdio.h>
 	<string>
 	"Vector2.h"
 
-1476215103 source:c:\users\mircea\desktop\info stuff\git\test\src\display.cpp
+1476297696 source:c:\users\mircea\desktop\info stuff\git\test\src\display.cpp
 	"display.h"
 
-1476289821 source:c:\users\mircea\desktop\info stuff\git\test\src\player.cpp
+1476300143 source:c:\users\mircea\desktop\info stuff\git\test\src\player.cpp
 	"Player.h"
+	"Marcos.h"
 
 1476216985 source:c:\users\mircea\desktop\info stuff\git\test\src\timer.cpp
 	"Timer.h"
@@ -690,13 +696,39 @@
 1476216985 c:\users\mircea\desktop\info stuff\git\test\include\timer.h
 	<SDL2\SDL.h>
 
-1476286077 c:\users\mircea\desktop\info stuff\git\test\include\vector2.h
+1476297696 c:\users\mircea\desktop\info stuff\git\test\include\vector2.h
 
-1454366534 c:\users\mircea\desktop\info stuff\git\test\include\sdl2\sdl_ttf.h
+1476291354 c:\users\mircea\desktop\info stuff\git\test\include\sdl2\sdl_ttf.h
 	"SDL.h"
 	"begin_code.h"
 	"close_code.h"
 
-1476286075 source:c:\users\mircea\desktop\info stuff\git\test\src\vector2.cpp
+1476291354 source:c:\users\mircea\desktop\info stuff\git\test\src\vector2.cpp
+	"Vector2.h"
+
+1451803974 c:\users\mircea\desktop\info stuff\git\test\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1476295162 c:\users\mircea\desktop\info stuff\git\test\include\aftermarketscaler.h
+	"Vector2.h"
+
+1476294884 source:c:\users\mircea\desktop\info stuff\git\test\src\aftermarketscaler.cpp
+	"AfterMarketScaler.h"
+
+1476299822 c:\users\mircea\desktop\info stuff\git\test\include\marcos.h
+	"Vector2.h"
+
+1476300175 source:c:\users\mircea\desktop\info stuff\git\test\src\ball.cpp
+	"Ball.h"
+	"Vector2.h"
+	"Marcos.h"
+
+1476299294 c:\users\mircea\desktop\info stuff\git\test\include\ball.h
+	<SDL2\SDL.h>
+	<stdio.h>
+	<string>
 	"Vector2.h"
 

@@ -1,8 +1,7 @@
 #ifndef VECTOR2_H
 #define VECTOR2_H
 
-template <class rarestpepe>
-class Vector2
+template <class rarestpepe> class Vector2
 {
     public:
         Vector2(rarestpepe _x, rarestpepe _y);
